@@ -1,0 +1,36 @@
+.home-bg{
+    height: 100vh;
+}
+
+.home-text{
+	color: white;
+	text-shadow: 0 0 10px black;
+	text-align: center;
+	margin-top: 55vh;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+.home-text h2{
+	font-size: 5rem;
+	text-shadow: 0 0 40px black;
+}
+
+.home-text h3{
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 2.2rem;
+	text-shadow: 0 0 40px black;
+	margin-top: 30px;
+}
+
+.headerBG{
+    position: relative;
+	width: 100%;
+	overflow: hidden;
+	height:100%;
+    background: url(../images/matrix.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
