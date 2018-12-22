@@ -1,3 +1,10 @@
+// Set progressive margins
+$( ".p4-sub" ).each(function( index ) {
+  let offset = 9;
+  $(this).css('margin-left', (5 + index * offset) + '%');
+  // console.log( index + ": " + $( this ).text() );
+});
+
 // Menu-toggle button
 
 $(document).ready(function() {
