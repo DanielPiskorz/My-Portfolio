@@ -1,3 +1,4 @@
+AOS.init();
 // Set progressive margins
 $( ".p4-sub" ).each(function( index ) {
   let offset = 9;
