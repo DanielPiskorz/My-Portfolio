@@ -48,4 +48,15 @@ $(function(){
         0 : ($($(e.target).attr("href")).offset().top - navbarOffset)
     }, 1000);
   });
+
+  $('#about a').on('click',function(e){
+    e.preventDefault();
+
+    const navbarOffset = 120;
+    $('html, body').animate({
+      
+      scrollTop: ($($(e.target).attr("href")).offset().top - navbarOffset - 100)
+       
+    }, 1000);
+  });
 });

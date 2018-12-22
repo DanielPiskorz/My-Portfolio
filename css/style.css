@@ -222,32 +222,16 @@ nav ul li a {
 	margin-bottom: 20px;
 }
 
-
-
-#about #unwrap_button{
-	text-align: center;
-	padding: 10px 40px;
-	margin: 0px 10px 10px 0px;
-	float: left;
-	border-radius: 8px;
-	font-family: 'Pacifico', cursive;
-	font-size: 25px;
-	color: #FFF;
-	text-decoration: none;	
-	transition: all 0.1s;
-	-webkit-transition: all 0.1s;
-	background-color: rgb(242, 207, 102);
-	border-bottom: 5px solid rgb(209, 179, 88);
-	text-shadow: 0px -2px rgb(209, 179, 88);
+#history{
+	font-size: 1.5rem;
 }
 
-#about #unwrap_button:active{
-	transform: translate(0px,5px);
-    -webkit-transform: translate(0px,5px);
-	border-bottom: 1px solid;
-	background-image: radial-gradient(rgb(255, 226, 138),rgb(245, 208, 97));
-	border-bottom: 5px solid rgb(235, 200, 95);
-	text-shadow: 0px 0px 2px rgb(255, 255, 255);
+#history p{
+	margin: 10px;
+}
+
+.expanded #history{
+	display: block;
 }
 
 
@@ -284,13 +268,6 @@ nav ul li a {
 	color: rgb(66, 66, 66)	
 }
 
-/* #projects{
-	background-color: red;
-	position: absolute;
-	transform:rotate(2deg);
-	max-width: 100%; 
-    overflow-x: hidden; 
-} */
 
 #eels_java_vlog .container-fluid{
 	
