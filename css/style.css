@@ -19,13 +19,13 @@ header {
 	background-size: cover;
 }
 
-.content {
+/* .content {
 	width: 94%;
 	margin: 4em auto;
 	font-size: 20px;
 	line-height: 30px;
 	text-align: justify;
-}
+} */
 
 .logo {
 	line-height: 70px;
@@ -42,7 +42,7 @@ nav {
 	position: fixed;
 	width: 100%;
 	line-height: 80px;
-	z-index: 1;
+	z-index: 4;
 }
 
 nav ul {
@@ -282,4 +282,57 @@ nav ul li a {
 #about #p16{
 	font-size: 1.8rem;
 	color: rgb(66, 66, 66)	
+}
+
+/* #projects{
+	background-color: red;
+	position: absolute;
+	transform:rotate(2deg);
+	max-width: 100%; 
+    overflow-x: hidden; 
+} */
+
+#eels_java_vlog .container-fluid{
+	
+	padding: 30px;
+	background: transparent;
+	position: relative;
+}
+
+
+#eels_java_vlog .container-fluid .row div{
+	z-index: 2;
+	position: relative;
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: lighter;
+	margin-bottom: 80px;
+	text-align: left;
+}
+
+
+#eels_java_vlog .container-fluid .row div h1{
+	z-index: 2;
+	position: relative;
+	color: rgba(255, 255, 255, 0.5);
+	margin: 6vh 0;
+	line-height: 0;
+}
+
+#eels_java_vlog .container-fluid .row div h1 #highlight{
+	text-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
+
+}
+
+#eels_java_vlog .container-fluid .row div h2{
+	margin: 5vh 0;
+}
+
+#eels_java_vlog .container-fluid .row div h4{
+
+	text-decoration: italic;
+	color: rgba(255, 255, 255, 0.445)
+}
+
+#contact{
+	height: 1000px;
 }
